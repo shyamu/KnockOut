@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Press the KnockOut button when you are in bed trying to fall asleep. Then click an appropriate time to set an alarm" />
+
+    <Button
+        android:id="@+id/bClickMe"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="bClickMe"
+        android:text="KnockOut!" />
+
+    <Button
+        android:id="@+id/bTime1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="bTime1"
+        android:text="Time 1" />
+
+    <Button
+        android:id="@+id/bTime2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="bTime2"
+        android:text="Time 2" />
+
+
+    <Button
+        android:id="@+id/bTime3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="bTime3"
+        android:text="Time 3" />
+
+    <AnalogClock
+        android:id="@+id/analogClock1"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
